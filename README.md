@@ -7,7 +7,7 @@ Siflo's fixes). Licence: BSD 2-Clause, as MapLibre Native ([LICENSE.md](LICENSE.
 
 | Platform | Version | Source commit | How to use |
 |---|---|---|---|
-| Android (OpenGL ES, every ABI) | `org.maplibre.gl:android-sdk-opengl:13.7.1-siflo.2` | `0a2c776` | Maven repository `https://raw.githubusercontent.com/paulasquin/maplibre-siflo/main/maven` |
+| Android (OpenGL ES, every ABI) | `org.maplibre.gl:android-sdk-opengl:13.7.1-siflo.3` | `ddb420e` | Maven repository `https://raw.githubusercontent.com/paulasquin/maplibre-siflo/main/maven` |
 | iOS (Metal, XCFramework) | `7.0.0-siflo.1` | `e738bae` | Swift package `https://github.com/paulasquin/maplibre-siflo`, product `MapLibre` |
 
 Android: `./gradlew -Pmaplibre.abis=all -PpublicationRepositoryUrl=file://<repo>/maven :MapLibreAndroid:publishOpenglReleasePublicationToConfiguredRepository`
